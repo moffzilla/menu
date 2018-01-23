@@ -21,7 +21,7 @@ if [ $retval -eq 0 ]; then
 		        -e PULSE_COOKIE=/run/pulse/cookie \
 			       -v /etc/localtime:/etc/localtime:ro \
 			              -v ~/.config/pulse/cookie:/run/pulse/cookie \
-				             -v $LOCAL_DATA_DIR:/home/developer/.purple -i -t $IMAGE pidgin
+				             -v $LOCAL_DATA_DIR:/home/developer/.purple -id -t $IMAGE pidgin
 
 
     exit 0
